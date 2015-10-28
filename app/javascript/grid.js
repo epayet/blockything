@@ -1,7 +1,8 @@
 /*jslint browser: true*/
 /*global  */
 
-const COLOURS = ['red', 'green', 'blue', 'yellow'];
+const COLOURS = ['white', 'black'];
+//const COLOURS = ['red', 'green', 'blue', 'yellow'];
 const MAX_X = 10;
 const MAX_Y = 10;
 
