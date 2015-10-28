@@ -37,4 +37,5 @@ gulp.task('watch', function () {
     gulp.watch(['app/less/*less'], ['less']);
     gulp.watch(['app/javascript/*js'], ['traceur']);
     gulp.watch(['dist/**/*'], ['reload']);
+    gulp.watch(['test/**/*'], ['reload']);
 });
