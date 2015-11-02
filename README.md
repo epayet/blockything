@@ -1,4 +1,6 @@
-To get started
+# To get started
+
+## Original:
 
 ```
 $ npm i
@@ -6,7 +8,20 @@ $ gulp
 $ cp node_modules/gulp-traceur/node_modules/traceur/bin/traceur-runtime.js ./dist/javascript
 ```
 
-Tasks:
+## Modified
+
+### Running
+
+```
+npm install
+gulp
+```
+
+### Testing
+
+`npm test`
+
+# Tasks:
 
 1. Implement blockClicked to recursively remove (or hide) all blocks of the same colour that are connected to the target element.
 2. Redraw the grid moving empty blocks are moved to the top of each column.
